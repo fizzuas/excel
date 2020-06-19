@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val models = Array(size = 25) {
+    private val models = Array(size = 24) {
         when (it){
             in 0.. 26 -> Model(('A'+it).toString())
             else  -> Model(it.toString())
