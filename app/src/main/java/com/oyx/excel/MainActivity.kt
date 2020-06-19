@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         recy.apply {
             adapter=modelAdapter
             layoutManager=GridLayoutManager(this@MainActivity,4)
-//            addItemDecoration(GridItemDecoration())
-            addItemDecoration(DividerGridItemDecoration(this@MainActivity))
+            addItemDecoration(ExcelGridItemDecoration(this@MainActivity))
+//            addItemDecoration(DividerGridItemDecoration(this@MainActivity))
 
 
         }

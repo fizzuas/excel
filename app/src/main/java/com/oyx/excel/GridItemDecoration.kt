@@ -72,6 +72,7 @@ class GridItemDecoration : ItemDecoration() {
         state: RecyclerView.State
     ) {
         super.getItemOffsets(outRect, view, parent, state)
+
         outRect[0, 0, DIVIDER_SIZE] = DIVIDER_SIZE
     }
 
